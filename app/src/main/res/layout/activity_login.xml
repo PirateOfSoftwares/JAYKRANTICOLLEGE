@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/jkc"
+    android:fitsSystemWindows="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawer_layout"
+        android:background="@drawable/jkc"
+        android:fitsSystemWindows="true">
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="56dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="56dp"
+            android:layout_marginBottom="30dp">
+
+
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="false"/>        <!-- Email Label -->
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/lemail"
+                android:layout_below="@id/logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+                <EditText
+                    android:id="@+id/Email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:textColorHint="@color/black"
+                    android:drawableLeft="@drawable/ic_baseline_alternate_email_24"
+                    android:inputType="textEmailAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/lpass"
+                android:layout_below="@id/lemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+                <EditText
+                    android:id="@+id/paswd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:textColorHint="@color/black"
+                    android:drawableStart="@drawable/ic_baseline_vpn_key_24"
+                    android:inputType="textPassword"
+                    android:drawableLeft="@drawable/ic_baseline_vpn_key_24" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:layout_below="@id/lpass"
+                android:id="@+id/btnLogIn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:padding="12dp"
+                android:text="Login"/>
+
+            <TextView
+                android:id="@+id/forgot"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnLogIn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="24dp"
+                android:gravity="center"
+                android:text="Forgot password"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_below="@id/forgot"
+                android:textStyle="bold|italic"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_marginTop="20dp"
+                android:id="@+id/link_signup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:text="@string/nacy"
+                android:gravity="center"
+                android:textSize="20dp"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

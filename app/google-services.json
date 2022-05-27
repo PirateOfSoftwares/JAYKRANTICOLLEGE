@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "39944665262",
+    "project_id": "jaykranti-college-katraj",
+    "storage_bucket": "jaykranti-college-katraj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39944665262:android:7d1eea06789ca5969bd53f",
+        "android_client_info": {
+          "package_name": "com.example.jaykranticollege"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39944665262-3mkckbmldssfpa9g9dn7rnbp88nppo3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8OIuRQ7pAQJJiCC9dJGM3SfHH7jSxfB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39944665262-3mkckbmldssfpa9g9dn7rnbp88nppo3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

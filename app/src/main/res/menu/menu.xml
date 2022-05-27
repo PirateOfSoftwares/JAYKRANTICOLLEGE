@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/aboutUs"
+        android:title="about us"
+        />
+    <item
+        android:id="@+id/help"
+        android:title="help"
+        />
+    <item
+        android:id="@+id/faq"
+        android:title="FAQ"
+        />
+    <item
+        android:id="@+id/feedback"
+        android:title="feedback"
+        />
+    <item
+        android:id="@+id/logout"
+        android:title="log out"
+        />
+</menu>
